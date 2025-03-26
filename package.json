@@ -2,7 +2,7 @@
   "name": "eobrowser-analysis",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dedooo0oo.github.io/eobrowser-analysis/",
+  "homepage": "https://dedooo0oo.github.io/eobrowser-analysis",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
