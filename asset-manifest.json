@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/eobrowser-analysis/static/css/main.89e06ac0.css",
+    "main.js": "/eobrowser-analysis/static/js/main.3c32f44b.js",
+    "index.html": "/eobrowser-analysis/index.html",
+    "main.89e06ac0.css.map": "/eobrowser-analysis/static/css/main.89e06ac0.css.map",
+    "main.3c32f44b.js.map": "/eobrowser-analysis/static/js/main.3c32f44b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.89e06ac0.css",
+    "static/js/main.3c32f44b.js"
+  ]
+}
