@@ -1,0 +1,59 @@
+.timeline-container {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    background-color: #f8f9fa;
+  }
+  
+  .timeline {
+    position: relative;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .timeline::after {
+    content: "";
+    position: absolute;
+    width: 4px;
+    background-color: #007bff;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .timeline-item {
+    position: relative;
+    width: 50%;
+    margin-bottom: 50px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+  }
+  
+  .timeline-item.left {
+    left: 0;
+  }
+  
+  .timeline-item.right {
+    left: 50%;
+  }
+  
+  .timeline-item.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  @media (max-width: 768px) {
+    .timeline {
+      width: 90%;
+    }
+  
+    .timeline-item {
+      width: 80%;
+      left: 10%;
+    }
+  }
+  
