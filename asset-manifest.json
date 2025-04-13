@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/eobrowser-analysis/static/css/main.7e863621.css",
+    "main.css": "/eobrowser-analysis/static/css/main.deb17f88.css",
     "main.js": "/eobrowser-analysis/static/js/main.3c43cf58.js",
     "index.html": "/eobrowser-analysis/index.html",
-    "main.7e863621.css.map": "/eobrowser-analysis/static/css/main.7e863621.css.map",
+    "main.deb17f88.css.map": "/eobrowser-analysis/static/css/main.deb17f88.css.map",
     "main.3c43cf58.js.map": "/eobrowser-analysis/static/js/main.3c43cf58.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e863621.css",
+    "static/css/main.deb17f88.css",
     "static/js/main.3c43cf58.js"
   ]
 }
