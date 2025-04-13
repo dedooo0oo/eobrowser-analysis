@@ -1,0 +1,108 @@
+.nuclear-animation {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  background: radial-gradient(circle at center, #0f3460 0%, #000000 100%);
+}
+
+.animation-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.explosion {
+  position: relative;
+  height: 400px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  z-index: 2;
+}
+
+.mushroom-cloud {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+.stem {
+  width: 40px;
+  background: linear-gradient(to bottom, #ff6600, #ff9933, #fff);
+  margin: 0 auto;
+  position: relative;
+  border-radius: 5px;
+  transform-origin: top;
+}
+
+.cap {
+  width: 180px;
+  height: 120px;
+  background: radial-gradient(circle at center, #fff, #ff9933, #ff6600);
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  transform-origin: top;
+  box-shadow: 0 0 50px rgba(255, 102, 0, 0.5);
+}
+
+.shockwave {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(255,165,0,0.8) 0%, rgba(255,165,0,0) 70%);
+  z-index: 1;
+}
+
+.animation-text {
+  text-align: center;
+  margin-top: 3rem;
+  max-width: 800px;
+  z-index: 3;
+}
+
+.animation-text h2 {
+  font-size: 3rem;
+  margin-bottom: 0;
+  background: linear-gradient(90deg, #ff9933, #ff6600);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.animation-text p {
+  font-size: 1.5rem;
+  opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+  .animation-text h2 {
+    font-size: 2rem;
+  }
+  
+  .animation-text p {
+    font-size: 1.2rem;
+  }
+  
+  .explosion {
+    height: 300px;
+  }
+  
+  .cap {
+    width: 120px;
+    height: 80px;
+  }
+}

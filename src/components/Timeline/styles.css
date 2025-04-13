@@ -1,0 +1,126 @@
+.timeline-container {
+  min-height: 100vh;
+  padding: 4rem 0;
+  position: relative;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.timeline-item {
+  width: 100%;
+  max-width: 800px;
+  position: relative;
+  padding: 0 0 4rem 0;
+}
+
+.timeline-item:not(.last)::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 4rem;
+  background: linear-gradient(to bottom, var(--highlight), transparent);
+}
+
+.timeline-date {
+  background: rgba(10, 25, 47, 0.8);
+  color: white;
+  padding: 1rem 1.5rem;
+  border-radius: 50px;
+  margin-bottom: 2rem;
+  text-align: center;
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(144, 224, 239, 0.2);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  position: relative;
+  z-index: 2;
+}
+
+.timeline-date h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.3rem;
+  color: var(--highlight);
+}
+
+.timeline-date p {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.timeline-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  background: rgba(15, 23, 42, 0.6);
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(144, 224, 239, 0.1);
+  transition: all 0.3s ease;
+}
+
+.timeline-content:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0, 180, 216, 0.2);
+}
+
+.timeline-image {
+  position: relative;
+  height: 300px;
+}
+
+.timeline-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, rgba(15, 52, 96, 0.7) 0%, transparent 100%);
+}
+
+.timeline-text {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.timeline-text h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: white;
+  line-height: 1.3;
+}
+
+.timeline-text p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+  .timeline-content {
+    grid-template-columns: 1fr;
+  }
+  
+  .timeline-image {
+    height: 200px;
+  }
+}
