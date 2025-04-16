@@ -38,8 +38,8 @@ export const timelineDataEn = [
       image: "/assets/images/pripyat-evacuation.jpg"
     },
     {
-      date: "April 27, 1986",
-      time: "Morning",
+      date: "",
+      time: "",
       title: "Conseguenze in Europa",
       description: "La nube radioattiva rilasciata dall’esplosione di Chernobyl non si fermò ai confini dell’Unione Sovietica. Si diffuse in gran parte dell’Europa, trasportata da vento e pioggia. Paesi lontani come Svezia, Germania e Italia registrarono livelli elevati di radiazione. Cibo, suolo e acqua contaminati rappresentarono un rischio sanitario in diverse regioni, e molti governi adottarono misure d’emergenza, come il divieto di alcune importazioni e la limitazione dell’accesso a foreste e terreni agricoli. Le conseguenze a lungo termine includevano un aumento dei casi di tumore e altri problemi di salute nelle popolazioni colpite, in particolare in Bielorussia, Ucraina e Russia. Chernobyl spinse anche a una rivalutazione globale dell’energia nucleare, portando a cambiamenti nelle politiche, nelle normative di sicurezza e nella progettazione dei nuovi reattori. A decenni di distanza, Chernobyl resta un simbolo potente sia del fallimento tecnologico che della resilienza umana.",
       image: "/assets/images/pripyat-evacuation.jpg"
