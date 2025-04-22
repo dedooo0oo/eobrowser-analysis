@@ -1,47 +1,145 @@
 export const timelineDataEn = [
-    {
-      date: "April 26, 1986",
-      time: "01:23 AM",
-      title: "Reactor Explosion",
-      description: "At 1:23 AM on April 26, 1986, Reactor No. 4 at the Chernobyl Nuclear Power Plant exploded during a safety test gone wrong. The test was meant to simulate a power outage, but due to serious design flaws and operator errors, it led to an uncontrollable power surge. The resulting explosion blew off the reactor’s roof and released a massive amount of radioactive material into the atmosphere. Flames and radiation poured out from the exposed core, marking the beginning of the worst nuclear disaster in history.\n\nFirst responders—firefighters and plant workers—rushed in with little knowledge of the radiation hazard. Many of them received lethal doses within minutes. The explosion was so powerful that people living in nearby Pripyat could see the glowing reactor from their windows. Yet, the full scale of the disaster was not immediately communicated to the public.",
-      image: "/assets/images/explosion.jpg"
-    },
-    {
-      date: "April 27, 1986",
-      time: "Morning",
-      title: "Evacuation of Pripyat",
-      description: "Despite the explosion occurring the previous night, residents of Pripyat, a nearby city built for the power plant’s workers, were not immediately informed of the danger. For nearly 36 hours, life continued as usual, even as radiation levels soared. It wasn’t until the morning of April 27 that Soviet authorities ordered the evacuation of the entire city.\n\nBuses arrived and residents were told to pack only essentials for a temporary departure. Most believed they would return in a few days. However, Pripyat would never be inhabited again. Over 49,000 people were evacuated in a single day, leaving behind homes, belongings, and memories. The city remains frozen in time, a haunting reminder of what happened.",
-      image: "/assets/images/pripyat-evacuation.jpg"
-    },
-    {
-      date: "",
-      time: "",
-      title: "Consequences around Europe",
-      description: "The radioactive cloud released by the Chernobyl explosion did not stop at the borders of the Soviet Union. It spread across much of Europe, carried by wind and rain. Countries as far as Sweden, Germany, and Italy recorded elevated radiation levels. Contaminated food, soil, and water posed health risks in several regions, and many governments had to take emergency measures, such as banning certain imports and restricting access to forests and farmland. The long-term consequences included increased cancer rates and other health issues in affected populations, particularly in Belarus, Ukraine, and Russia. Chernobyl also sparked a global re-evaluation of nuclear energy, leading to changes in policies, safety regulations, and the construction of new reactors. Decades later, Chernobyl remains a powerful symbol of both technological failure and human resilience.",
-      image: "/assets/images/pripyat-evacuation.jpg"
-    },
-  ];
+  {
+    date: "Before April 1986",
+    time: "",
+    title: "Chernobyl Nuclear Power Plant",
+    description: "Before the accident, the Chernobyl Nuclear Power Plant was one of the largest in the Soviet Union, located near the city of Pripyat in northern Ukraine. It had four reactors and played a key role in providing electricity to the region. Pripyat, a thriving city of nearly 50,000 residents, was built specifically to house plant workers and their families.",
+    image: "/src/components/data/before.jpg"
+  },
+  {
+    date: "April 26, 1986",
+    time: "01:23 AM",
+    title: "Reactor Explosion",
+    description: "At 01:23 AM, the fourth reactor at the Chernobyl Nuclear Power Plant exploded during a night safety test. The explosion released large amounts of radioactive material into the atmosphere. It marked the beginning of the most serious accident in nuclear power history.",
+    image: "/src/components/data/after.jpg"
+  },
+  {
+    date: "April 27, 1986",
+    time: "Morning",
+    title: "Evacuation of Pripyat",
+    description: "About 36 hours after the explosion, authorities began evacuating Pripyat, the nearby city housing power plant workers and their families. Around 49,000 people were moved out, unaware that they would never return.",
+    image: "/src/components/data/evacuation.jpg"
+  },
+  {
+    date: "April 28, 1986",
+    time: "2:00 PM",
+    title: "Radiation Detected Abroad",
+    description: "Workers at the Forsmark Nuclear Power Plant in Sweden detected unusual radiation levels. This discovery forced the Soviet Union to publicly acknowledge the accident at Chernobyl for the first time.",
+    image: "/src/components/data/radiation.jpg"
+  },
+  {
+    date: "May 2-4, 1986",
+    time: "",
+    title: "Second Explosion Prevented",
+    description: "To prevent a second, more powerful explosion, plant workers and emergency teams drained a pool of water under the reactor. Later, miners dug a tunnel to install a cooling system. Their actions likely saved millions of lives.",
+    image: "/src/components/data/diggers.jpg"
+  },
+  {
+    date: "December 1986",
+    time: "",
+    title: "Sarcophagus Completed",
+    description: "A massive concrete structure, known as the sarcophagus, was built to encase the fourth reactor and limit further radiation leaks. It was completed in December 1986 and became a symbol of the Soviet response to the disaster.",
+    image: "/src/components/data/sarcophagus.jpg"
+  },
+  {
+    date: "1991",
+    time: "",
+    title: "Fall of the Soviet Union",
+    description: "When the Soviet Union collapsed in 1991, responsibility for the Chernobyl site transferred to the newly independent Ukraine. This marked a major shift in how the site was managed, with Ukraine now in charge of containment and long-term safety.",
+    image: "/src/components/data/ussr.jpg"
+  },
+  {
+    date: "December 15, 2000",
+    time: "",
+    title: "Chernobyl Plant Closed",
+    description: "The last operational reactor at Chernobyl, Reactor 3, was shut down on December 15, 2000. This officially ended energy production at the site and fulfilled Ukraine's promise to close the plant in exchange for international aid.",
+    image: "/src/components/data/last.jpg"
+  },
+  {
+    date: "November 2016",
+    time: "",
+    title: "New Safe Confinement Completed",
+    description: "A massive steel structure called the New Safe Confinement was slid into place over the damaged fourth reactor in 2016. Designed to contain radiation for 100 years, it replaced the aging sarcophagus built in 1986.",
+    image: "/src/components/data/safe.jpg"
+  },
+  {
+    date: "February 2022",
+    time: "",
+    title: "Russian Occupation of Chernobyl",
+    description: "During the Russian invasion of Ukraine in 2022, Russian forces occupied the Chernobyl site for five weeks. Although no damage to the reactor occurred, the incident raised international concerns about nuclear safety during wartime.",
+    image: "/src/components/data/occupation.jpg"
+  }
+];
   
-  export const timelineDataIt = [
-    {
-      date: "26 Aprile 1986",
-      time: "01:23",
-      title: "Esplosione del Reattore",
-      description: "Alle 01:23 del 26 aprile 1986, il Reattore n. 4 della centrale nucleare di Chernobyl esplose durante un test di sicurezza andato storto. Il test doveva simulare un'interruzione di corrente, ma a causa di gravi difetti di progettazione e errori umani, si verificò un'impennata incontrollabile di potenza. L'esplosione scoperchiò il reattore e rilasciò una quantità enorme di materiale radioattivo nell'atmosfera. Fiamme e radiazioni fuoriuscirono dal nucleo esposto, segnando l'inizio del peggior disastro nucleare della storia. I primi soccorritori—pompieri e operai della centrale—intervennero senza conoscere il pericolo delle radiazioni. Molti di loro ricevettero dosi letali nel giro di pochi minuti. L'esplosione fu così potente che gli abitanti di Pripyat poterono vedere il reattore brillare dalle finestre di casa. Tuttavia, l'entità reale del disastro non fu subito comunicata al pubblico.",
-      image: "/assets/images/explosion.jpg"
-    },
-    {
-      date: "27 Aprile 1986",
-      time: "Mattina",
-      title: "Evacuazione di Pripyat",
-      description: "Nonostante l'esplosione fosse avvenuta la notte precedente, gli abitanti di Pripyat, la città costruita per i lavoratori della centrale, non furono subito informati del pericolo. Per quasi 36 ore, la vita continuò normalmente, anche se i livelli di radiazione aumentavano vertiginosamente. Solo la mattina del 27 aprile le autorità sovietiche ordinarono l'evacuazione dell'intera città. Arrivarono autobus e ai cittadini fu detto di portare solo l’essenziale per una partenza temporanea. La maggior parte credeva che sarebbe tornata dopo pochi giorni. Tuttavia, Pripyat non sarebbe mai più stata abitata. Più di 49.000 persone furono evacuate in un solo giorno, lasciando case, oggetti e ricordi. La città è rimasta congelata nel tempo, un inquietante ricordo di ciò che accadde.",
-      image: "/assets/images/pripyat-evacuation.jpg"
-    },
-    {
-      date: "",
-      time: "",
-      title: "Conseguenze in Europa",
-      description: "La nube radioattiva rilasciata dall’esplosione di Chernobyl non si fermò ai confini dell’Unione Sovietica. Si diffuse in gran parte dell’Europa, trasportata da vento e pioggia. Paesi lontani come Svezia, Germania e Italia registrarono livelli elevati di radiazione. Cibo, suolo e acqua contaminati rappresentarono un rischio sanitario in diverse regioni, e molti governi adottarono misure d’emergenza, come il divieto di alcune importazioni e la limitazione dell’accesso a foreste e terreni agricoli. Le conseguenze a lungo termine includevano un aumento dei casi di tumore e altri problemi di salute nelle popolazioni colpite, in particolare in Bielorussia, Ucraina e Russia. Chernobyl spinse anche a una rivalutazione globale dell’energia nucleare, portando a cambiamenti nelle politiche, nelle normative di sicurezza e nella progettazione dei nuovi reattori. A decenni di distanza, Chernobyl resta un simbolo potente sia del fallimento tecnologico che della resilienza umana.",
-      image: "/assets/images/pripyat-evacuation.jpg"
-    },
-  ];
+export const timelineDataIt = [
+  {
+    date: "Prima di Aprile 1986",
+    time: "",
+    title: "Centrale Nucleare di Chernobyl",
+    description: "Prima dell'incidente, la centrale nucleare di Chernobyl era una delle più grandi dell'Unione Sovietica, situata vicino alla città di Pripyat, nel nord dell'Ucraina. Aveva quattro reattori e svolgeva un ruolo fondamentale nella fornitura di elettricità alla regione. Pripyat, una città fiorente di quasi 50.000 abitanti, era stata costruita appositamente per ospitare i lavoratori della centrale e le loro famiglie.",
+    image: "/src/components/data/before.jpg"
+  },  
+  {
+    date: "26 Aprile 1986",
+    time: "01:23",
+    title: "Esplosione del Reattore",
+    description: "Alle 01:23, il quarto reattore della centrale nucleare di Chernobyl esplose durante un test di sicurezza notturno. L'esplosione rilasciò grandi quantità di materiale radioattivo nell'atmosfera. Fu l'inizio del più grave incidente nella storia dell'energia nucleare.",
+    image: "/src/components/data/after.jpg"
+  },
+  {
+    date: "27 Aprile 1986",
+    time: "Mattina",
+    title: "Evacuazione di Pripyat",
+    description: "Circa 36 ore dopo l'esplosione, le autorità iniziarono a evacuare Pripyat, la città vicina che ospitava i lavoratori della centrale e le loro famiglie. Circa 49.000 persone furono evacuate, ignare che non sarebbero mai più tornate.",
+    image: "/src/components/data/evacuation.jpg"
+  },
+  {
+    date: "28 Aprile 1986",
+    time: "14:00",
+    title: "Radiazioni Rilevate all'Estero",
+    description: "I lavoratori della centrale nucleare di Forsmark, in Svezia, rilevarono livelli anomali di radiazioni. Questa scoperta costrinse l'Unione Sovietica ad ammettere pubblicamente per la prima volta l'incidente a Chernobyl.",
+    image: "/src/components/data/radiation.jpg"
+  },
+  {
+    date: "2-4 Maggio 1986",
+    time: "",
+    title: "Prevenuta una Seconda Esplosione",
+    description: "Per evitare una seconda esplosione, potenzialmente più potente, i lavoratori e le squadre di emergenza svuotarono una piscina d'acqua sotto il reattore. Successivamente, dei minatori scavarono un tunnel per installare un sistema di raffreddamento. Le loro azioni probabilmente salvarono milioni di vite.",
+    image: "/src/components/data/diggers.jpg"
+  },
+  {
+    date: "Dicembre 1986",
+    time: "",
+    title: "Completamento del Sarcofago",
+    description: "Una grande struttura in cemento, nota come sarcofago, fu costruita per racchiudere il quarto reattore e limitare ulteriori perdite di radiazioni. Fu completata nel dicembre 1986 e divenne il simbolo della risposta sovietica al disastro.",
+    image: "/src/components/data/sarcophagus.jpg"
+  },
+  {
+    date: "1991",
+    time: "",
+    title: "Caduta dell'Unione Sovietica",
+    description: "Con il crollo dell'Unione Sovietica nel 1991, la responsabilità del sito di Chernobyl passò alla neonata Ucraina. Questo segnò un cambiamento importante nella gestione del sito, con l'Ucraina incaricata del contenimento e della sicurezza a lungo termine.",
+    image: "/src/components/data/ussr.jpg"
+  },
+  {
+    date: "15 Dicembre 2000",
+    time: "",
+    title: "Chiusura della Centrale di Chernobyl",
+    description: "L'ultimo reattore operativo di Chernobyl, il Reattore 3, fu spento il 15 dicembre 2000. Ciò segnò ufficialmente la fine della produzione di energia nel sito e mantenne la promessa dell'Ucraina di chiudere l'impianto in cambio di aiuti internazionali.",
+    image: "/src/components/data/last.jpg"
+  },
+  {
+    date: "Novembre 2016",
+    time: "",
+    title: "Completamento del Nuovo Confinamento Sicuro",
+    description: "Una grande struttura in acciaio chiamata Nuovo Confinamento Sicuro fu posizionata sopra il reattore danneggiato nel 2016. Progettata per contenere le radiazioni per 100 anni, sostituì il vecchio sarcofago costruito nel 1986.",
+    image: "/src/components/data/safe.jpg"
+  },
+  {
+    date: "Febbraio 2022",
+    time: "",
+    title: "Occupazione Russa di Chernobyl",
+    description: "Durante l'invasione russa dell'Ucraina nel 2022, le forze russe occuparono il sito di Chernobyl per cinque settimane. Sebbene non ci siano stati danni al reattore, l'evento sollevò preoccupazioni internazionali sulla sicurezza nucleare in tempo di guerra.",
+    image: "/src/components/data/occupation.jpg"
+  }
+];
