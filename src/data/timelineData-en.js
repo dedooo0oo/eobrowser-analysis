@@ -15,14 +15,14 @@ export const timelineDataEn = [
     time: "",
     title: "Chernobyl Nuclear Power Plant",
     description: "Before the accident, the Chernobyl Nuclear Power Plant was one of the largest in the Soviet Union, located near the city of Pripyat in northern Ukraine. It had four reactors and played a key role in providing electricity to the region. Pripyat, a thriving city of nearly 50,000 residents, was built specifically to house plant workers and their families.",
-    image: beforeImg
+    image: afterImg
   },
   {
     date: "April 26, 1986",
     time: "01:23 AM",
     title: "Reactor Explosion",
     description: "At 01:23 AM, the fourth reactor at the Chernobyl Nuclear Power Plant exploded during a night safety test. The explosion released large amounts of radioactive material into the atmosphere. It marked the beginning of the most serious accident in nuclear power history.",
-    image: afterImg
+    image: beforeImg
   },
   {
     date: "April 27, 1986",
@@ -88,14 +88,14 @@ export const timelineDataIt = [
     time: "",
     title: "Centrale Nucleare di Chernobyl",
     description: "Prima dell'incidente, la centrale nucleare di Chernobyl era una delle più grandi dell'Unione Sovietica, situata vicino alla città di Pripyat, nel nord dell'Ucraina. Aveva quattro reattori e svolgeva un ruolo fondamentale nella fornitura di elettricità alla regione. Pripyat, una città fiorente di quasi 50.000 abitanti, era stata costruita appositamente per ospitare i lavoratori della centrale e le loro famiglie.",
-    image: beforeImg
+    image: afterImg
   },  
   {
     date: "26 Aprile 1986",
     time: "01:23",
     title: "Esplosione del Reattore",
     description: "Alle 01:23, il quarto reattore della centrale nucleare di Chernobyl esplose durante un test di sicurezza notturno. L'esplosione rilasciò grandi quantità di materiale radioattivo nell'atmosfera. Fu l'inizio del più grave incidente nella storia dell'energia nucleare.",
-    image: afterImg
+    image: beforeImg
   },
   {
     date: "27 Aprile 1986",
