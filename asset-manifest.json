@@ -1,13 +1,23 @@
 {
   "files": {
     "main.css": "/eobrowser-analysis/static/css/main.deb17f88.css",
-    "main.js": "/eobrowser-analysis/static/js/main.d7e5cbed.js",
+    "main.js": "/eobrowser-analysis/static/js/main.3d0cffe8.js",
+    "static/media/safe.jpg": "/eobrowser-analysis/static/media/safe.4fcac258797157dd614c.jpg",
+    "static/media/ussr.jpg": "/eobrowser-analysis/static/media/ussr.443ff438d9090ede56b6.jpg",
+    "static/media/occupation.jpg": "/eobrowser-analysis/static/media/occupation.81810b7dd1d8dc7cab7a.jpg",
+    "static/media/last.jpg": "/eobrowser-analysis/static/media/last.87f82d9216d6c65d40ec.jpg",
+    "static/media/diggers.jpg": "/eobrowser-analysis/static/media/diggers.2f0b8f6710d7bdddfd79.jpg",
+    "static/media/before.jpg": "/eobrowser-analysis/static/media/before.904983ad0a60db4272a6.jpg",
+    "static/media/after.jpg": "/eobrowser-analysis/static/media/after.c2932376ca1fdb18b12b.jpg",
+    "static/media/radiation.jpg": "/eobrowser-analysis/static/media/radiation.6eb820e7b7ea3ba40548.jpg",
+    "static/media/evacuation.jpg": "/eobrowser-analysis/static/media/evacuation.7bc687c4411a97739c41.jpg",
+    "static/media/sarcophagus.jpg": "/eobrowser-analysis/static/media/sarcophagus.ccb6014718cbad38b36d.jpg",
     "index.html": "/eobrowser-analysis/index.html",
     "main.deb17f88.css.map": "/eobrowser-analysis/static/css/main.deb17f88.css.map",
-    "main.d7e5cbed.js.map": "/eobrowser-analysis/static/js/main.d7e5cbed.js.map"
+    "main.3d0cffe8.js.map": "/eobrowser-analysis/static/js/main.3d0cffe8.js.map"
   },
   "entrypoints": [
     "static/css/main.deb17f88.css",
-    "static/js/main.d7e5cbed.js"
+    "static/js/main.3d0cffe8.js"
   ]
 }
